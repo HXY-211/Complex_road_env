@@ -1,0 +1,24 @@
+{
+    "make_merge": 1,
+    "make_straight": 0,
+    "make_double_u_turn": 1,
+    "make_intersection": 0,
+    "vehicles_count": 3,
+    "obstacle_count": 2,
+    "obstacle_speed_range": [
+        0,
+        5
+    ],
+    "double_u_turn_radius": 50,
+    "other_vehicle_speed_range": [
+        10,
+        30
+    ],
+    "road_sequence": [
+        "_make_double_u_turn",
+	"_make_merge"
+    ],
+    "straight_length": 20,
+    "other_vehicle_target_speed": 20,
+    "merge_obstacle_distance": 0.95
+}
